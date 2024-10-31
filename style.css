@@ -64,7 +64,7 @@ li a {
 #about-us,
 #contact-us,
 footer {
-  border: 2px solid #000;
+  border: 2px;
   width: 90%;
   margin: 20px auto;
   padding: 15px;
@@ -74,7 +74,7 @@ footer {
 #about-us h2,
 #contact-us h2 {
   font-family: "Playfair Display SC", serif;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 #our-menu .menu {
@@ -82,6 +82,7 @@ footer {
   text-align: center;
 }
 #our-menu .menu h3 {
+  font-family: "Lato", sans-serif;
   padding: 10px;
   text-align: left;
 }
@@ -91,9 +92,10 @@ footer {
   padding: 15px;
   text-align: center;
   border-radius: 5px;
+  display: inline-block;
 }
 .card .card-img-top {
-  max-width: 100px;
+  max-width: 100%;
   border-radius: 5px;
 }
 .card h4 {
